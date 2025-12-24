@@ -26,7 +26,6 @@ conn = snowflake.connector.connect(
     warehouse=WAREHOUSE,
     database=DATABASE,
     schema=SCHEMA,
-    # For SSO, use: authenticator="externalbrowser" and remove password
 )
 
 
@@ -68,7 +67,7 @@ synonyms = {
     "Sci-Fi": "Science Fiction",
     "Science fiction": "Science Fiction",
     "Children's": "Children",
-    "Film Noir": "Film-Noir",      # ensure hyphenated form
+    "Film Noir": "Film-Noir",
 }
 
 
