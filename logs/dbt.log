@@ -1,0 +1,529 @@
+[0m17:40:40.625566 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170EB016620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170ED31C430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170ED31C220>]}
+
+
+============================== 17:40:40.628576 | 255d7606-7610-494c-89e3-662a3525efc2 ==============================
+[0m17:40:40.628576 [info ] [MainThread]: Running with dbt=1.10.15
+[0m17:40:40.629574 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt ', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m17:40:40.793941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '255d7606-7610-494c-89e3-662a3525efc2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170ED31C4C0>]}
+[0m17:40:40.827132 [debug] [MainThread]: Set downloads directory='C:\Users\Cody\AppData\Local\Temp\dbt-downloads-n0zw_y0j'
+[0m17:40:40.828133 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m17:40:40.953489 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m17:40:40.955490 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m17:40:40.987423 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m17:40:40.992424 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m17:40:41.405065 [info ] [MainThread]: Installed from version 1.3.0
+[0m17:40:41.406065 [info ] [MainThread]: Updated version available: 1.3.3
+[0m17:40:41.406065 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '255d7606-7610-494c-89e3-662a3525efc2', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170EB395960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170ED5A39A0>]}
+[0m17:40:41.407065 [info ] [MainThread]: 
+[0m17:40:41.407065 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m17:40:41.409066 [debug] [MainThread]: Command `cli deps` succeeded at 17:40:41.409066 after 0.86 seconds
+[0m17:40:41.410066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170EB016620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170ED31C4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000170EB3717E0>]}
+[0m17:40:41.410066 [debug] [MainThread]: Flushing usage events
+[0m17:40:41.679334 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:00:30.815990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897C6765F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897E97C400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897E97C1F0>]}
+
+
+============================== 18:00:30.815990 | 00d25a2c-e376-4823-8f31-cc7d80888c17 ==============================
+[0m18:00:30.815990 [info ] [MainThread]: Running with dbt=1.10.15
+[0m18:00:30.815990 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m18:00:30.984463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '00d25a2c-e376-4823-8f31-cc7d80888c17', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897E8DD4E0>]}
+[0m18:00:31.048998 [debug] [MainThread]: Set downloads directory='C:\Users\Cody\AppData\Local\Temp\dbt-downloads-p3_8k7ne'
+[0m18:00:31.048998 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m18:00:31.148997 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m18:00:31.148997 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m18:00:31.195709 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m18:00:31.199030 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m18:00:31.598972 [info ] [MainThread]: Installed from version 1.3.0
+[0m18:00:31.598972 [info ] [MainThread]: Updated version available: 1.3.3
+[0m18:00:31.598972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '00d25a2c-e376-4823-8f31-cc7d80888c17', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897C9FCC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897EC079A0>]}
+[0m18:00:31.598972 [info ] [MainThread]: 
+[0m18:00:31.598972 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m18:00:31.598972 [debug] [MainThread]: Command `cli deps` succeeded at 18:00:31.598972 after 0.86 seconds
+[0m18:00:31.598972 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897C6765F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897E8DD4E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001897C9FCC40>]}
+[0m18:00:31.598972 [debug] [MainThread]: Flushing usage events
+[0m18:00:31.946930 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:31:44.096783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5A9A66B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5CCB4490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5CCB4280>]}
+
+
+============================== 20:31:44.100783 | ae71be0c-bc94-479f-b0df-7174fe51d382 ==============================
+[0m20:31:44.100783 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:31:44.101783 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'invocation_command': 'dbt run --model fct_movies_metadata', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m20:31:44.101783 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m20:31:44.102784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ae71be0c-bc94-479f-b0df-7174fe51d382', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5CCB4190>]}
+[0m20:31:46.524792 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:31:46.524792 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:31:46.525792 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:31:46.739807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ae71be0c-bc94-479f-b0df-7174fe51d382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B58EFDED0>]}
+[0m20:31:46.795037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ae71be0c-bc94-479f-b0df-7174fe51d382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B0EA9FA90>]}
+[0m20:31:46.797038 [info ] [MainThread]: Registered adapter: snowflake=1.10.4
+[0m20:31:47.266227 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:31:47.418971 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:31:47.419963 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:31:47.419963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'ae71be0c-bc94-479f-b0df-7174fe51d382', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5C3D0D90>]}
+[0m20:31:47.486139 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Error reading netflix_dbt: sources.yml - Runtime Error
+    Syntax error near line 4
+    ------------------------------
+    1  | version: 
+    2  | 2
+    3  | 
+    4  | sources:
+    5  |   - name: netflix
+    6  |     schema: raw
+    7  |     tables:
+    
+    Raw Error:
+    ------------------------------
+    while scanning a simple key
+      in "<unicode string>", line 2, column 1
+    could not find expected ':'
+      in "<unicode string>", line 4, column 1
+[0m20:31:47.487296 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m20:31:47.488292 [debug] [MainThread]: Command `dbt run` failed at 20:31:47.488292 after 3.47 seconds
+[0m20:31:47.489307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B5A9A66B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B100A6110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022B100A6050>]}
+[0m20:31:47.489307 [debug] [MainThread]: Flushing usage events
+[0m20:31:47.855552 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:33:38.920927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511D392710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511F6A4400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511F6A4250>]}
+
+
+============================== 20:33:38.924928 | e879a10a-5179-4271-8830-b1613f0a239e ==============================
+[0m20:33:38.924928 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:33:38.925928 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'invocation_command': 'dbt run --model fct_movies_metadata', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m20:33:38.925928 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m20:33:38.926929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511F6A4160>]}
+[0m20:33:39.621250 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:33:39.621250 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:33:39.622251 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:33:39.821921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511B8EDF90>]}
+[0m20:33:39.877385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511F66D630>]}
+[0m20:33:39.878386 [info ] [MainThread]: Registered adapter: snowflake=1.10.4
+[0m20:33:40.244192 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:33:40.385626 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:33:40.386660 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:33:40.386660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511EDC5270>]}
+[0m20:33:43.349529 [warn ] [MainThread]: [[33mWARNING[0m][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `relationships`. Arguments to generic tests
+should be nested under the `arguments` property.`
+[0m20:33:43.350530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251522D3670>]}
+[0m20:33:43.556652 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dim
+- models.fct
+- models.staging
+[0m20:33:43.567655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025152499ED0>]}
+[0m20:33:43.814446 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Cody\Desktop\Netflix dbt\target\manifest.json
+[0m20:33:43.828449 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Cody\Desktop\Netflix dbt\target\semantic_manifest.json
+[0m20:33:43.854560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025152137EB0>]}
+[0m20:33:43.854560 [info ] [MainThread]: Found 14 models, 1 snapshot, 1 analysis, 13 data tests, 2 seeds, 6 sources, 621 macros
+[0m20:33:43.855560 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002515220A6E0>]}
+[0m20:33:43.857561 [info ] [MainThread]: 
+[0m20:33:43.857561 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:33:43.858658 [info ] [MainThread]: 
+[0m20:33:43.859656 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m20:33:43.860657 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MOVIELENS'
+[0m20:33:45.721535 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS"
+[0m20:33:45.722535 [debug] [ThreadPool]: On list_MOVIELENS: show terse schemas in database MOVIELENS
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS"} */
+[0m20:33:45.722535 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:33:47.238996 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.517 seconds
+[0m20:33:47.247232 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MOVIELENS_DEV'
+[0m20:33:47.259051 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS_DEV"
+[0m20:33:47.259051 [debug] [ThreadPool]: On list_MOVIELENS_DEV: show objects in MOVIELENS.DEV
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS_DEV"} */;
+[0m20:33:47.260234 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:33:48.259218 [debug] [ThreadPool]: SQL status: SUCCESS 13 in 1.000 seconds
+[0m20:33:48.262229 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MOVIELENS_DEV, now list_MOVIELENS_snapshots)
+[0m20:33:48.267231 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS_snapshots"
+[0m20:33:48.267231 [debug] [ThreadPool]: On list_MOVIELENS_snapshots: show objects in MOVIELENS.snapshots
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS_snapshots"} */;
+[0m20:33:48.420743 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.153 seconds
+[0m20:33:48.422747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251521370A0>]}
+[0m20:33:48.427755 [debug] [Thread-1 (]: Began running node model.netflix_dbt.fct_movies_metadata
+[0m20:33:48.428755 [info ] [Thread-1 (]: 1 of 1 START sql view model DEV.fct_movies_metadata ............................ [RUN]
+[0m20:33:48.428755 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.netflix_dbt.fct_movies_metadata'
+[0m20:33:48.429757 [debug] [Thread-1 (]: Began compiling node model.netflix_dbt.fct_movies_metadata
+[0m20:33:48.436819 [debug] [Thread-1 (]: Writing injected SQL for node "model.netflix_dbt.fct_movies_metadata"
+[0m20:33:48.437819 [debug] [Thread-1 (]: Began executing node model.netflix_dbt.fct_movies_metadata
+[0m20:33:48.464825 [debug] [Thread-1 (]: Writing runtime sql for node "model.netflix_dbt.fct_movies_metadata"
+[0m20:33:48.466826 [debug] [Thread-1 (]: Using snowflake connection "model.netflix_dbt.fct_movies_metadata"
+[0m20:33:48.466826 [debug] [Thread-1 (]: On model.netflix_dbt.fct_movies_metadata: create or replace   view MOVIELENS.DEV.fct_movies_metadata
+  
+  
+  
+  
+  as (
+    WITH movies_metadata AS (
+    SELECT 
+        CASE
+            WHEN release_date IS NOT NULL
+            THEN CONCAT(TRIM(title), ' (', TO_CHAR(release_date, 'YYYY'), ')')
+            ELSE TRIM(title)
+        END AS title,
+        revenue AS revenue,
+        budget AS budget
+    FROM MOVIELENS.RAW.RAW_MOVIES_METADATA
+)
+
+SELECT
+    title,
+    revenue,
+    budget
+FROM movies_metadata
+  )
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "node_id": "model.netflix_dbt.fct_movies_metadata"} */;
+[0m20:33:48.467826 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:33:49.074471 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.607 seconds
+[0m20:33:49.094732 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e879a10a-5179-4271-8830-b1613f0a239e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511B8C4130>]}
+[0m20:33:49.094732 [info ] [Thread-1 (]: 1 of 1 OK created sql view model DEV.fct_movies_metadata ....................... [[32mSUCCESS 1[0m in 0.66s]
+[0m20:33:49.096723 [debug] [Thread-1 (]: Finished running node model.netflix_dbt.fct_movies_metadata
+[0m20:33:49.097733 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:33:49.098732 [debug] [MainThread]: Connection 'list_MOVIELENS' was left open.
+[0m20:33:49.098732 [debug] [MainThread]: On list_MOVIELENS: Close
+[0m20:33:49.220984 [debug] [MainThread]: Connection 'list_MOVIELENS_snapshots' was left open.
+[0m20:33:49.221983 [debug] [MainThread]: On list_MOVIELENS_snapshots: Close
+[0m20:33:49.353602 [debug] [MainThread]: Connection 'model.netflix_dbt.fct_movies_metadata' was left open.
+[0m20:33:49.354611 [debug] [MainThread]: On model.netflix_dbt.fct_movies_metadata: Close
+[0m20:33:49.474563 [info ] [MainThread]: 
+[0m20:33:49.475555 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 5.61 seconds (5.61s).
+[0m20:33:49.476555 [debug] [MainThread]: Command end result
+[0m20:33:49.510823 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Cody\Desktop\Netflix dbt\target\manifest.json
+[0m20:33:49.512830 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Cody\Desktop\Netflix dbt\target\semantic_manifest.json
+[0m20:33:49.518832 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Cody\Desktop\Netflix dbt\target\run_results.json
+[0m20:33:49.519832 [info ] [MainThread]: 
+[0m20:33:49.519832 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:33:49.520832 [info ] [MainThread]: 
+[0m20:33:49.521823 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:33:49.522832 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+- MissingArgumentsPropertyInGenericTestDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m20:33:49.523832 [debug] [MainThread]: Command `dbt run` succeeded at 20:33:49.523832 after 10.67 seconds
+[0m20:33:49.524824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002511D392710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000251522ADDB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025152438520>]}
+[0m20:33:49.524824 [debug] [MainThread]: Flushing usage events
+[0m20:33:49.807938 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:34:44.655206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E32F566B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E35264490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E35264280>]}
+
+
+============================== 20:34:44.658206 | ba6a5470-3e60-48c8-b4f2-855e75bff435 ==============================
+[0m20:34:44.658206 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:34:44.659393 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'invocation_command': 'dbt run --model fct_movies_metadata', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m20:34:44.659393 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m20:34:44.660392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E35264190>]}
+[0m20:34:45.347466 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:34:45.348466 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:34:45.348466 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:34:45.549703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E31C99ED0>]}
+[0m20:34:45.605772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E661DFA90>]}
+[0m20:34:45.607773 [info ] [MainThread]: Registered adapter: snowflake=1.10.4
+[0m20:34:45.980858 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:34:46.225996 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:34:46.226996 [debug] [MainThread]: Partial parsing: updated file: netflix_dbt://models\fct\fct_movies_metadata.sql
+[0m20:34:46.511504 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dim
+- models.staging
+- models.fct
+[0m20:34:46.526507 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E67A68130>]}
+[0m20:34:46.682797 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Cody\Desktop\Netflix dbt\target\manifest.json
+[0m20:34:46.685835 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Cody\Desktop\Netflix dbt\target\semantic_manifest.json
+[0m20:34:46.707877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E668A3A30>]}
+[0m20:34:46.707877 [info ] [MainThread]: Found 14 models, 1 snapshot, 1 analysis, 13 data tests, 2 seeds, 6 sources, 621 macros
+[0m20:34:46.708960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E668A1480>]}
+[0m20:34:46.710993 [info ] [MainThread]: 
+[0m20:34:46.710993 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:34:46.711991 [info ] [MainThread]: 
+[0m20:34:46.712992 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m20:34:46.713992 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MOVIELENS'
+[0m20:34:46.783715 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS"
+[0m20:34:46.783715 [debug] [ThreadPool]: On list_MOVIELENS: show terse schemas in database MOVIELENS
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS"} */
+[0m20:34:46.784725 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:34:47.556612 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.772 seconds
+[0m20:34:47.563869 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MOVIELENS_snapshots'
+[0m20:34:47.577094 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS_snapshots"
+[0m20:34:47.577094 [debug] [ThreadPool]: On list_MOVIELENS_snapshots: show objects in MOVIELENS.snapshots
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS_snapshots"} */;
+[0m20:34:47.578093 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:34:48.380991 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.803 seconds
+[0m20:34:48.381993 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MOVIELENS_snapshots, now list_MOVIELENS_DEV)
+[0m20:34:48.385994 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS_DEV"
+[0m20:34:48.387007 [debug] [ThreadPool]: On list_MOVIELENS_DEV: show objects in MOVIELENS.DEV
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS_DEV"} */;
+[0m20:34:48.576913 [debug] [ThreadPool]: SQL status: SUCCESS 14 in 0.190 seconds
+[0m20:34:48.581914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E67A69E70>]}
+[0m20:34:48.585380 [debug] [Thread-1 (]: Began running node model.netflix_dbt.fct_movies_metadata
+[0m20:34:48.585380 [info ] [Thread-1 (]: 1 of 1 START sql table model DEV.fct_movies_metadata ........................... [RUN]
+[0m20:34:48.586390 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.netflix_dbt.fct_movies_metadata'
+[0m20:34:48.587392 [debug] [Thread-1 (]: Began compiling node model.netflix_dbt.fct_movies_metadata
+[0m20:34:48.595407 [debug] [Thread-1 (]: Writing injected SQL for node "model.netflix_dbt.fct_movies_metadata"
+[0m20:34:48.596407 [debug] [Thread-1 (]: Began executing node model.netflix_dbt.fct_movies_metadata
+[0m20:34:48.611696 [debug] [Thread-1 (]:  adapter: Dropping relation "MOVIELENS"."DEV"."FCT_MOVIES_METADATA" because it is a view and target relation MOVIELENS.DEV.fct_movies_metadata is of type table.
+[0m20:34:48.618739 [debug] [Thread-1 (]: Applying DROP to: "MOVIELENS"."DEV"."FCT_MOVIES_METADATA"
+[0m20:34:48.623740 [debug] [Thread-1 (]: Using snowflake connection "model.netflix_dbt.fct_movies_metadata"
+[0m20:34:48.624740 [debug] [Thread-1 (]: On model.netflix_dbt.fct_movies_metadata: drop view if exists "MOVIELENS"."DEV"."FCT_MOVIES_METADATA" cascade
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "node_id": "model.netflix_dbt.fct_movies_metadata"} */
+[0m20:34:48.625065 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:34:49.187280 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.562 seconds
+[0m20:34:49.201283 [debug] [Thread-1 (]: Writing runtime sql for node "model.netflix_dbt.fct_movies_metadata"
+[0m20:34:49.202283 [debug] [Thread-1 (]: Using snowflake connection "model.netflix_dbt.fct_movies_metadata"
+[0m20:34:49.202283 [debug] [Thread-1 (]: On model.netflix_dbt.fct_movies_metadata: create or replace transient table MOVIELENS.DEV.fct_movies_metadata
+    
+    
+    
+    as (
+ITH movies_metadata AS (
+    SELECT 
+        CASE
+            WHEN release_date IS NOT NULL
+            THEN CONCAT(TRIM(title), ' (', TO_CHAR(release_date, 'YYYY'), ')')
+            ELSE TRIM(title)
+        END AS title,
+        revenue AS revenue,
+        budget AS budget
+    FROM MOVIELENS.RAW.RAW_MOVIES_METADATA
+)
+
+SELECT
+    title,
+    revenue,
+    budget
+FROM movies_metadata
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "node_id": "model.netflix_dbt.fct_movies_metadata"} */;
+[0m20:34:49.315697 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01c12012-0307-4e16-0019-93cf0005270e
+[0m20:34:49.316697 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 6 at position 0 unexpected 'ITH'.
+syntax error line 10 at position 35 unexpected ','.
+[0m20:34:49.327849 [debug] [Thread-1 (]: Database Error in model fct_movies_metadata (models\fct\fct_movies_metadata.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 6 at position 0 unexpected 'ITH'.
+  syntax error line 10 at position 35 unexpected ','.
+  compiled code at target\run\netflix_dbt\models\fct\fct_movies_metadata.sql
+[0m20:34:49.330498 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ba6a5470-3e60-48c8-b4f2-855e75bff435', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E681BBD60>]}
+[0m20:34:49.331526 [error] [Thread-1 (]: 1 of 1 ERROR creating sql table model DEV.fct_movies_metadata .................. [[31mERROR[0m in 0.74s]
+[0m20:34:49.332508 [debug] [Thread-1 (]: Finished running node model.netflix_dbt.fct_movies_metadata
+[0m20:34:49.333510 [debug] [Thread-4 (]: Marking all children of 'model.netflix_dbt.fct_movies_metadata' to be skipped because of status 'error'.  Reason: Database Error in model fct_movies_metadata (models\fct\fct_movies_metadata.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 6 at position 0 unexpected 'ITH'.
+  syntax error line 10 at position 35 unexpected ','.
+  compiled code at target\run\netflix_dbt\models\fct\fct_movies_metadata.sql.
+[0m20:34:49.335667 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:34:49.335667 [debug] [MainThread]: Connection 'list_MOVIELENS' was left open.
+[0m20:34:49.335667 [debug] [MainThread]: On list_MOVIELENS: Close
+[0m20:34:49.452271 [debug] [MainThread]: Connection 'list_MOVIELENS_DEV' was left open.
+[0m20:34:49.453271 [debug] [MainThread]: On list_MOVIELENS_DEV: Close
+[0m20:34:49.541951 [debug] [MainThread]: Connection 'model.netflix_dbt.fct_movies_metadata' was left open.
+[0m20:34:49.542951 [debug] [MainThread]: On model.netflix_dbt.fct_movies_metadata: Close
+[0m20:34:49.635053 [info ] [MainThread]: 
+[0m20:34:49.635053 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 2.92 seconds (2.92s).
+[0m20:34:49.651246 [debug] [MainThread]: Command end result
+[0m20:34:49.686637 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Cody\Desktop\Netflix dbt\target\manifest.json
+[0m20:34:49.689637 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Cody\Desktop\Netflix dbt\target\semantic_manifest.json
+[0m20:34:49.695650 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Cody\Desktop\Netflix dbt\target\run_results.json
+[0m20:34:49.695650 [info ] [MainThread]: 
+[0m20:34:49.696659 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m20:34:49.696659 [info ] [MainThread]: 
+[0m20:34:49.697663 [error] [MainThread]: [31mFailure in model fct_movies_metadata (models\fct\fct_movies_metadata.sql)[0m
+[0m20:34:49.698693 [error] [MainThread]:   Database Error in model fct_movies_metadata (models\fct\fct_movies_metadata.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 6 at position 0 unexpected 'ITH'.
+  syntax error line 10 at position 35 unexpected ','.
+  compiled code at target\run\netflix_dbt\models\fct\fct_movies_metadata.sql
+[0m20:34:49.699674 [info ] [MainThread]: 
+[0m20:34:49.699674 [info ] [MainThread]:   compiled code at target\compiled\netflix_dbt\models\fct\fct_movies_metadata.sql
+[0m20:34:49.700666 [info ] [MainThread]: 
+[0m20:34:49.701683 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:34:49.701683 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m20:34:49.702686 [debug] [MainThread]: Command `dbt run` failed at 20:34:49.702686 after 5.11 seconds
+[0m20:34:49.703696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E32F566B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E663017B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012E67ACEB90>]}
+[0m20:34:49.704700 [debug] [MainThread]: Flushing usage events
+[0m20:34:50.100515 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:35:26.539470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D11C16680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D13F24490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D13F24280>]}
+
+
+============================== 20:35:26.542470 | 55769fef-f95a-4ba9-bc2d-aed9b23a6fe2 ==============================
+[0m20:35:26.542470 [info ] [MainThread]: Running with dbt=1.10.15
+[0m20:35:26.543471 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --model fct_movies_metadata', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m20:35:26.544471 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m20:35:26.545471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D13F24190>]}
+[0m20:35:27.224424 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:35:27.225424 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:35:27.225424 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:35:27.422914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D44EADFF0>]}
+[0m20:35:27.478969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D44EADEA0>]}
+[0m20:35:27.480970 [info ] [MainThread]: Registered adapter: snowflake=1.10.4
+[0m20:35:27.846916 [debug] [MainThread]: checksum: 14a228079bd6df63ba81633f9a3cf44ecfaa31056ac397c602753ec895dbf885, vars: {}, profile: , target: , version: 1.10.15
+[0m20:35:28.087931 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m20:35:28.088931 [debug] [MainThread]: Partial parsing: updated file: netflix_dbt://models\fct\fct_movies_metadata.sql
+[0m20:35:28.371600 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.staging
+- models.dim
+- models.fct
+[0m20:35:28.386604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D46734130>]}
+[0m20:35:28.542900 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Cody\Desktop\Netflix dbt\target\manifest.json
+[0m20:35:28.544901 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Cody\Desktop\Netflix dbt\target\semantic_manifest.json
+[0m20:35:28.567057 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D45570370>]}
+[0m20:35:28.568057 [info ] [MainThread]: Found 14 models, 1 snapshot, 1 analysis, 13 data tests, 2 seeds, 6 sources, 621 macros
+[0m20:35:28.569048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D45571450>]}
+[0m20:35:28.571056 [info ] [MainThread]: 
+[0m20:35:28.571056 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:35:28.572050 [info ] [MainThread]: 
+[0m20:35:28.573048 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m20:35:28.574057 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MOVIELENS'
+[0m20:35:28.643194 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS"
+[0m20:35:28.643194 [debug] [ThreadPool]: On list_MOVIELENS: show terse schemas in database MOVIELENS
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS"} */
+[0m20:35:28.643194 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:35:29.741338 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.097 seconds
+[0m20:35:29.748340 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_MOVIELENS_DEV'
+[0m20:35:29.761601 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS_DEV"
+[0m20:35:29.762602 [debug] [ThreadPool]: On list_MOVIELENS_DEV: show objects in MOVIELENS.DEV
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS_DEV"} */;
+[0m20:35:29.762602 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:35:30.864268 [debug] [ThreadPool]: SQL status: SUCCESS 13 in 1.102 seconds
+[0m20:35:30.867271 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_MOVIELENS_DEV, now list_MOVIELENS_snapshots)
+[0m20:35:30.872280 [debug] [ThreadPool]: Using snowflake connection "list_MOVIELENS_snapshots"
+[0m20:35:30.872280 [debug] [ThreadPool]: On list_MOVIELENS_snapshots: show objects in MOVIELENS.snapshots
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "connection_name": "list_MOVIELENS_snapshots"} */;
+[0m20:35:30.986629 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.114 seconds
+[0m20:35:30.988630 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D44DF6500>]}
+[0m20:35:30.991621 [debug] [Thread-1 (]: Began running node model.netflix_dbt.fct_movies_metadata
+[0m20:35:30.992631 [info ] [Thread-1 (]: 1 of 1 START sql table model DEV.fct_movies_metadata ........................... [RUN]
+[0m20:35:30.993631 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.netflix_dbt.fct_movies_metadata'
+[0m20:35:30.993631 [debug] [Thread-1 (]: Began compiling node model.netflix_dbt.fct_movies_metadata
+[0m20:35:31.001623 [debug] [Thread-1 (]: Writing injected SQL for node "model.netflix_dbt.fct_movies_metadata"
+[0m20:35:31.002623 [debug] [Thread-1 (]: Began executing node model.netflix_dbt.fct_movies_metadata
+[0m20:35:31.030698 [debug] [Thread-1 (]: Writing runtime sql for node "model.netflix_dbt.fct_movies_metadata"
+[0m20:35:31.032701 [debug] [Thread-1 (]: Using snowflake connection "model.netflix_dbt.fct_movies_metadata"
+[0m20:35:31.032701 [debug] [Thread-1 (]: On model.netflix_dbt.fct_movies_metadata: create or replace transient table MOVIELENS.DEV.fct_movies_metadata
+    
+    
+    
+    as (
+WITH movies_metadata AS (
+    SELECT 
+        CASE
+            WHEN release_date IS NOT NULL
+            THEN CONCAT(TRIM(title), ' (', TO_CHAR(release_date, 'YYYY'), ')')
+            ELSE TRIM(title)
+        END AS title,
+        revenue AS revenue,
+        budget AS budget
+    FROM MOVIELENS.RAW.RAW_MOVIES_METADATA
+)
+
+SELECT
+    title,
+    revenue,
+    budget
+FROM movies_metadata
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.15", "profile_name": "netflix", "target_name": "dev", "node_id": "model.netflix_dbt.fct_movies_metadata"} */;
+[0m20:35:31.033844 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:35:34.088390 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 3.055 seconds
+[0m20:35:34.109507 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '55769fef-f95a-4ba9-bc2d-aed9b23a6fe2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D10174A00>]}
+[0m20:35:34.110505 [info ] [Thread-1 (]: 1 of 1 OK created sql table model DEV.fct_movies_metadata ...................... [[32mSUCCESS 1[0m in 3.12s]
+[0m20:35:34.112120 [debug] [Thread-1 (]: Finished running node model.netflix_dbt.fct_movies_metadata
+[0m20:35:34.113119 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:35:34.113119 [debug] [MainThread]: Connection 'list_MOVIELENS' was left open.
+[0m20:35:34.114119 [debug] [MainThread]: On list_MOVIELENS: Close
+[0m20:35:34.217795 [debug] [MainThread]: Connection 'list_MOVIELENS_snapshots' was left open.
+[0m20:35:34.233729 [debug] [MainThread]: On list_MOVIELENS_snapshots: Close
+[0m20:35:34.355405 [debug] [MainThread]: Connection 'model.netflix_dbt.fct_movies_metadata' was left open.
+[0m20:35:34.356405 [debug] [MainThread]: On model.netflix_dbt.fct_movies_metadata: Close
+[0m20:35:34.466826 [info ] [MainThread]: 
+[0m20:35:34.466826 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 5.89 seconds (5.89s).
+[0m20:35:34.466826 [debug] [MainThread]: Command end result
+[0m20:35:34.512075 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\Cody\Desktop\Netflix dbt\target\manifest.json
+[0m20:35:34.515522 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\Cody\Desktop\Netflix dbt\target\semantic_manifest.json
+[0m20:35:34.521649 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\Cody\Desktop\Netflix dbt\target\run_results.json
+[0m20:35:34.521649 [info ] [MainThread]: 
+[0m20:35:34.522652 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:35:34.522652 [info ] [MainThread]: 
+[0m20:35:34.523655 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m20:35:34.524658 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m20:35:34.525667 [debug] [MainThread]: Command `dbt run` succeeded at 20:35:34.525667 after 8.05 seconds
+[0m20:35:34.526670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D11C16680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D44EADEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D467A6650>]}
+[0m20:35:34.526670 [debug] [MainThread]: Flushing usage events
+[0m20:35:34.822985 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:40:45.043237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E957EE800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E97AF0400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E97AF01F0>]}
+
+
+============================== 13:40:45.046238 | 9bc6df68-4600-4dca-ac37-5aa242aeb9a0 ==============================
+[0m13:40:45.046238 [info ] [MainThread]: Running with dbt=1.10.15
+[0m13:40:45.046238 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Cody\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt ', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'c:\\Users\\Cody\\Desktop\\Netflix dbt\\logs'}
+[0m13:40:45.211168 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9bc6df68-4600-4dca-ac37-5aa242aeb9a0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E97AF0490>]}
+[0m13:40:45.293209 [debug] [MainThread]: Set downloads directory='C:\Users\Cody\AppData\Local\Temp\dbt-downloads-70un6n34'
+[0m13:40:45.293209 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m13:40:45.443112 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m13:40:45.445109 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m13:40:45.475145 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m13:40:45.481147 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m13:40:45.903171 [info ] [MainThread]: Installed from version 1.3.0
+[0m13:40:45.904170 [info ] [MainThread]: Updated version available: 1.3.3
+[0m13:40:45.904170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '9bc6df68-4600-4dca-ac37-5aa242aeb9a0', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E95B6EBC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E97D779A0>]}
+[0m13:40:45.905171 [info ] [MainThread]: 
+[0m13:40:45.905171 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m13:40:45.907171 [debug] [MainThread]: Command `cli deps` succeeded at 13:40:45.907171 after 0.94 seconds
+[0m13:40:45.907171 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E957EE800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E97AF0490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018E95B38670>]}
+[0m13:40:45.908171 [debug] [MainThread]: Flushing usage events
+[0m13:40:46.255537 [debug] [MainThread]: An error was encountered while trying to flush usage events

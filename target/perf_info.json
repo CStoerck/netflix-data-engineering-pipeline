@@ -1,0 +1,46 @@
+{
+    "path_count": 152,
+    "parsed_path_count": 152,
+    "static_analysis_path_count": 3,
+    "static_analysis_parsed_path_count": 3,
+    "is_partial_parse_enabled": true,
+    "is_static_analysis_enabled": true,
+    "read_files_elapsed": 0.03937039998709224,
+    "load_macros_elapsed": 0.6880875000206288,
+    "parse_project_elapsed": 0.1842361000017263,
+    "patch_sources_elapsed": 5.89998671784997e-06,
+    "process_manifest_elapsed": 0.02583170001162216,
+    "load_all_elapsed": 1.0568425999954343,
+    "projects": [
+        {
+            "project_name": "netflix_dbt",
+            "elapsed": 0.1756475999718532,
+            "parsers": [
+                {
+                    "parser": "model",
+                    "elapsed": 0.17139309999765828,
+                    "parsed_path_count": 3
+                }
+            ],
+            "parsed_path_count": 3
+        },
+        {
+            "project_name": "dbt_snowflake",
+            "elapsed": 0.003951299993786961,
+            "parsers": [],
+            "parsed_path_count": 0
+        },
+        {
+            "project_name": "dbt",
+            "elapsed": 0.00458410001010634,
+            "parsers": [
+                {
+                    "parser": "doc",
+                    "elapsed": 0.00018400000408291817,
+                    "parsed_path_count": 1
+                }
+            ],
+            "parsed_path_count": 1
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+name: 'netflix_dbt'
+version: '1.0.0'
+
+profile: 'netflix'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+
+models:
+  staging:
+    +materialized: view
+    +enabled: true
+  dim:
+    +materialized: table
+    +enabled: true
+  fct:
+    +materialized: table
+    +enabled: true
+
+snapshots:
+  +target_schema: snapshots
+  +tags: ["snapshot"]  
