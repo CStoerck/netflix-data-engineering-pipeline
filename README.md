@@ -45,3 +45,8 @@ This architecture implements an ELT pipeline ingesting raw CSV files into AWS S3
 * **dbt:** Built staging models, marts, and metrics (decade buckets, ratings, ROI)
 * **Python**: Normalized genre strings and wrote enriched data back to Snowflake
 * **Power BI:** Developed an interactive dashboard to present insights
+
+## Contact
+Please feel free to contact me if you have any questions at:
+* **Email:** cstoerck@gmail.com
+* **LinkedIn:** https://www.linkedin.com/in/CodyStoerck/
