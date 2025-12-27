@@ -4,7 +4,7 @@
 This project is an end-to-end cloud-based data engineering pipeline that extracts insights on the highest performing movies and genres by decade. The pipeline ingests raw data into AWS S3, loads it into Snowflake, transforms it using dbt, normalizes genres in Python, and visualizes insights through a PowerBI dashboard. This project demonstrates current data engineering practices including ELT modeling, cloud warehousing, data transformation, documentation, and analytics engineering.
 
 ## Data Visualization
-![Netflix Dashboard](https://github.com/user-attachments/assets/c6bdeb11-3e2d-44c5-b16c-2adde2ce22b0)
+![Netflix dashboard filtered by Action](https://github.com/CStoerck/netflix-data-engineering-pipeline/blob/cfc283c3f4008bf5526572aaf511fdcace2b6c21/images/Netflix%20Dashboard.JPG)
 ### Example use case
 Netflix is evaluating which genre to back for a new original film. Using the dashboard’s decade‑by‑decade projections and genre performance metrics, the action genre appears to be a strong candidate.
 * Action generated $89.2 billion in the last two decades in this sample, outperforming the projection by $29.3 billion (about 148.9% above expectation based on all-genre decade-over-decade growth rate).
