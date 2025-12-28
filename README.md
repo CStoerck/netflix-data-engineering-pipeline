@@ -53,6 +53,96 @@ This architecture implements an ELT pipeline ingesting raw CSV files into AWS S3
 * **Python**: Normalized genre strings and wrote enriched data back to Snowflake
 * **Power BI:** Developed an interactive dashboard to present insights
 
+## How to run
+
+To run the pipeline end‑to‑end: provision Snowflake, load raw CSVs from S3, run dbt transforms, normalize genres with Python, and open the Power BI dashboard.
+
+### Prerequisites
+- **Accounts / tools:** Snowflake (admin role for setup), AWS S3, dbt (v1.x) with `dbt-snowflake`, Python 3.8+, Power BI Desktop.  
+- **Data:** Download the two Kaggle datasets listed in **Datasets** and upload the CSVs to your S3 bucket in the paths referenced by `snowflake/staging.sql`.  
+- **Secrets:** Provide credentials via environment variables or CI secrets. Typical variables: `AWS_KEY_ID`, `AWS_SECRET_KEY`, `SNOWFLAKE_ACCOUNT`, `SNOWFLAKE_USER`, `SNOWFLAKE_PASSWORD`.
+
+### 1. Create Snowflake objects
+Run the Snowflake setup script to create role, warehouse, database, schemas, and the `dbt` user. Run as a privileged role (for example `ACCOUNTADMIN`):
+
+```bash
+snowsql -a <ACCOUNT> -u <ADMIN_USER> -r ACCOUNTADMIN -f snowflake/setup.sql
+```
+
+### 2. Load raw CSVs into Snowflake
+Ensure your S3 bucket matches the paths referenced in `snowflake/staging.sql`
+
+Set credentials in your shell (example):
+
+```bash
+export AWS_KEY_ID="..."
+export AWS_SECRET_KEY="..."
+export SNOWFLAKE_ACCOUNT="..."
+export SNOWFLAKE_USER="<ADMIN_USER>"
+```
+
+Run the staging script:
+
+```bash
+snowsql -a $SNOWFLAKE_ACCOUNT -u $SNOWFLAKE_USER -f snowflake/staging.sql
+```
+
+Verify a few row counts in Snowflake:
+
+```sql
+USE DATABASE MOVIELENS;
+USE SCHEMA RAW;
+SELECT COUNT(*) FROM raw_movies;
+SELECT COUNT(*) FROM raw_ratings;
+```
+
+
+### 3. Configure dbt (project specifics)
+Create or update your dbt profile (`~/.dbt/profiles.yml`) to match the `netflix` profile and point to Snowflake `MOVIELENS` / schema `DEV`. Example:
+
+```yaml
+netflix:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "<SNOWFLAKE_ACCOUNT>"
+      user: "<SNOWFLAKE_USER>"
+      password: "<SNOWFLAKE_PASSWORD>"
+      role: TRANSFORM
+      database: MOVIELENS
+      warehouse: COMPUTE_WH
+      schema: DEV
+      threads: 4
+```
+
+#### Run dbt
+
+```bash
+cd dbt
+dbt deps
+dbt seed
+dbt run
+dbt test
+dbt docs generate
+```
+
+Run specific models as needed:
+
+```bash
+dbt run --models <model_name>
+```
+
+**Notes**
+- Use `dbt debug` to validate the profile and connection if you encounter issues.
+
+### 4. Normalize genres with Python
+Create a virtual environment, install dependencies, and run the genre parsing script to write normalized/enriched tables back to `MOVIELENS.DEV`.
+
+### 5. Power BI dashboard
+- In Power BI Desktop: **Get Data → Snowflake**. Connect to **MOVIELENS / DEV** using a read account.  
+- Import the views and create visualizations.
+
 ## Contact
 Please feel free to contact me if you have any questions at:
 * **Email:** cstoerck@gmail.com
