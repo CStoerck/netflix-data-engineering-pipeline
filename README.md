@@ -1,4 +1,4 @@
-# Netflix Data Engineering Pipeline: AWS, Snowflake, dbt, Python, Power BI
+# Netflix Analytics Engineering Pipeline: AWS, Snowflake, dbt, Python, Power BI
 
 ## Overview
 This project is an end-to-end cloud-based data engineering pipeline and dashboard that extracts insights on the highest performing movies and genres by decade. The pipeline ingests raw data into AWS S3, loads it into Snowflake, transforms it using dbt, normalizes genres in Python, and visualizes insights through a Power BI dashboard. This project demonstrates current data engineering practices including ELT modeling, cloud warehousing, data transformation, documentation, and analytics engineering.
