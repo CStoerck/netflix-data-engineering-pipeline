@@ -1,0 +1,23 @@
+Documentary
+Musical
+Horror
+Thriller
+Action
+Comedy
+Drama
+Romance
+Crime
+Mystery
+Film-Noir
+Western
+Science Fiction
+Fantasy
+Adventure
+War
+History
+Sport
+Music
+Animation
+Children
+IMAX
+(no genres listed)
